@@ -30,7 +30,7 @@
     }
 
     #resultsContainer {
-    width: 200px; /* or any desired width */
+        width: 200px; /* or any desired width */
     }
 
     .result-item, .total-item {
@@ -55,6 +55,16 @@
         margin-top: 5px;
         padding-top: 5px;
     }
+
+    .bottom-citation {
+        position: fixed;
+        bottom: 17em; 
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        border-top: 1px solid #ccc;
+    }
+
 </style>
 </head>
 <body>
@@ -75,6 +85,11 @@
         <h2>Results</h2>
         <div id="resultsContainer"></div>
         <!-- <div id="totalContainer"></div> -->
+    </section>
+
+    <section class="bottom-citation">
+        <p>This website is a companion tool that accompanies the paper Buchanan, Dodgson, and Piercey (2025). If you use this tool, please cite our paper:</p>
+        <p>Buchanan, J. L., M. K. Dodgson, and M. D. Piercey. 2025. What are “good” values of q<sup>2</sup>? Guidance based on experimental accounting researchers’ assessments of fit. <i>The Accounting Review.</i><a href="https://doi.org/10.2308/TAR-2024-0123"> https://doi.org/10.2308/TAR-2024-0123</a></p>
     </section>
 
     <script>
